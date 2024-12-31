@@ -1,0 +1,176 @@
+:root {
+    --primary: #fff200;
+    --bg: #08b1f0;
+    --text_color: #0c356a;
+}
+.card-items-unit {
+    background: rgb(218, 255, 238);
+    background: linear-gradient(90deg,
+            rgba(218, 255, 238, 1) 0%,
+            rgba(134, 221, 217, 1) 35%,
+            rgba(0, 212, 255, 1) 100%);
+}
+
+.highlight-blue {
+    background: #add8e6;
+}
+
+.card-items-unit-ulp {
+    background: rgb(253, 255, 218);
+    background: linear-gradient(90deg,
+            rgba(253, 255, 218, 1) 0%,
+            rgba(248, 255, 134, 1) 35%,
+            rgba(255, 243, 0, 1) 100%);
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand";
+}
+
+.leaflet-routing-container {
+    display: none !important;
+}
+
+a.navbar-brand {
+    font-size: 15px;
+}
+
+header.navbar-expand-md {
+    border-bottom: 5px solid rgb(183, 136, 195);
+}
+
+#map {
+    position: relative;
+    bottom: 68px;
+    height: 90%;
+    z-index: 0;
+}
+
+#map_koordinator {
+    position: relative;
+    bottom: 68px;
+    height: 90%;
+    z-index: 0;
+}
+
+.display-pelanggan-app {
+    position: relative;
+    bottom: 53px;
+}
+
+button#getLocation {
+    font-size: 20px;
+}
+
+p.detail_pelanggan {
+    border-bottom: 1px solid black;
+    color: #353535;
+    padding-bottom: 10px;
+}
+
+div.search_customer {
+    position: relative;
+    width: 50%;
+    z-index: 999;
+}
+
+div.search_tiang {
+    position: absolute;
+    width: 50%;
+    z-index: 9999;
+}
+
+select.pilih_peta {
+    position: relative;
+    z-index: 999;
+    top: 1rem;
+    width: 40%;
+    height: 30%;
+}
+
+button#tambah_garis {
+    position: absolute;
+    top: 130px;
+    left: 73px;
+    width: 26%;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+button#hapus_garis {
+    position: absolute;
+    top: 130px;
+    right: 73px;
+    width: 26%;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+a.navbar-brand {
+    font-size: 15px;
+}
+
+#suggestionList {
+    position: absolute;
+    z-index: 9999999;
+    display: block;
+    width: 92%;
+    overflow-y: auto;
+    border-radius: 4px;
+}
+
+#suggestionListAPP {
+    position: absolute;
+    display: block;
+    width: 96%;
+    overflow-y: auto;
+    border-radius: 4px;
+}
+
+#suggestionList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#suggestionList li {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid #ced4da;
+}
+
+#suggestionList li:last-child {
+    border-bottom: none;
+}
+
+#suggestionList .selected {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    div.nav_koordinator a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 615px) {
+    div.search_customer {
+        margin-left: 12%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 465px) {
+    a.navbar-brand {
+        font-size: 11.3px;
+    }
+
+    div.nav_koordinator a {
+        font-size: 11px;
+    }
+}
