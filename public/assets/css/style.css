@@ -61,10 +61,6 @@ header.navbar-expand-md {
     bottom: 53px;
 }
 
-button#getLocation {
-    font-size: 20px;
-}
-
 p.detail_pelanggan {
     border-bottom: 1px solid black;
     color: #353535;
