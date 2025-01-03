@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class DataGiJaringan extends Migration
+class DataKinerja extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class DataGiJaringan extends Migration
      */
     public function up()
     {
-        Schema::create('data_gi_jaringan', function (Blueprint $table) {
+        Schema::create('data_kinerja', function (Blueprint $table) {
             $table->id();
             $table->string('gi')->nullable();
             $table->string('trafo')->nullable();
@@ -34,6 +34,6 @@ class DataGiJaringan extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('data_gi_jaringan');
+        Schema::dropIfExists('data_kinerja');
     }
 }
